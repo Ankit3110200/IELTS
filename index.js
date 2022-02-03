@@ -31,10 +31,6 @@ app.use('/', homeRoutes);
 // app.use('/post',post)
 app.use('/user', userRoutes);
 
-app.get('/', (req, res) => {
-    console.log("xyz file");
-})
-
 //making server on port 5000
 app.listen(port, () => {
     console.log(`Server is running cool on ${port}`);
